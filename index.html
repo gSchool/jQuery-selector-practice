@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<style>
+  label {
+    display: block;
+  }
+</style>
+</head>
+<body>
+<h2>DOM</h2>
+
+<ul id="root">
+  <li>
+    <span data-employment="full-time">Izaiah</span>
+    <ul>
+      <li>
+        <span>Joel</span>
+        <ul>
+          <li><span data-employment="full-time">Della</span></li>
+          <li><span class="talkative">Lurline</span></li>
+        </ul>
+      </li>
+      <li>
+        <span>Aaliyah</span>
+        <ul>
+          <li><span>Elisa</span></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <span id="vp">Eulalia</span>
+    <ul>
+      <li>
+        <span class="talkative">Claude</span>
+        <ul>
+          <li><span data-employment="full-time">Lowell</span></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<form>
+  <label>
+    First Name:
+    <input type="text" name="first_name" value="Joe"><br/>
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" name="last_name" value="Example"><br/>
+  </label>
+
+  <label>
+    <input type="checkbox" value="42">
+    Answer to The Ultimate Question of Life, the Universe, and Everything
+  </label>
+</form>
+
+<div class="replace-me" style="display: none;">Not Implemented!!</div>
+
+<h2>Challenges</h2>
+<button id="top-level-button">Top-Level Names</button>
+<button id="second-level-button">Second-Level Names</button>
+<button id="full-time-button">Full-Time</button>
+<button id="talkative-button">Talkative</button>
+<button id="under-isaiah-button">Under Isaiah</button>
+<button id="under-eulalia-button">Under Eulalia</button>
+<button id="text-field-button">Text Fields</button>
+
+<div id="names"></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/plumbing.js"></script>
+<script src="js/warmup.js"></script>
+<script>
+  $(document).ready(function () {
+    Warmup.initialize();
+  });
+</script>
+
+</body>
+</html>
