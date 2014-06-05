@@ -1,14 +1,14 @@
 # jQuery Selector Practice
 
+This warmup gives you some DOM elements.  There are several buttons that should print out names when they are clicked.
 
+Your mission, should you choose to accept it, is to write the jQuery selectors to make the buttons work.
 
-## Examples
+* Go into `js/warmup.js`
+* Replace the underscores `___` with real jQuery selectors
+* Refresh the web page and click the buttons to see if it works!
 
-Show concrete examples
-
-# Extra
-
-Add extra challenges here.
+The first one has been filled out for you.
 
 # References
 
