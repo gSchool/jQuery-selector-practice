@@ -35,7 +35,7 @@ window.Warmup = {
 
     /*
       Description: show the names of the people under Isaiah
-      Outcome: Della, Lurline, Aaliyah, Elisa
+      Outcome: Joel, Della, Lurline, Aaliyah, Elisa
     */
     showNamesForSelector("#under-isaiah-button", ___);
 
